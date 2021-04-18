@@ -31,9 +31,7 @@ services:
             - odoo-network
 volumes:
     odoo-data:
-        driver: bridge
     db-data:
-        driver: bridge
 networks:
     odoo-network:
         driver: bridge
